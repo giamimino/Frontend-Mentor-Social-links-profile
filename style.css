@@ -1,0 +1,87 @@
+@import url('https://fonts.google.com/specimen/Inter');
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif ;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfp {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+
+.wrapper {
+    width: 320px;
+    height: 520px;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    font-size: 14px;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+
+.USER {
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.Locate {
+    font-size: 12px;
+    margin-top: 7px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.info {
+    font-size: 13px;
+    margin-top: 11px;
+    font-weight: 400;
+}
+
+.BTN-list {
+    background-color: none;
+    height: 300px;
+    display:inline-block;
+
+    text-align: center;
+}
+
+.GitHub,
+.FrontendMentor,
+.LinkedIn,
+.Twitter,
+.Instagram {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+.Hover:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    font-weight: 500;
+}
